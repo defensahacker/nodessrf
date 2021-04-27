@@ -1,0 +1,13 @@
+{
+  "name": "nodessrf",
+  "description": "Node.js SSRF Lab on Docker",
+  "author": "defensahacker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "url": "^0.11.0"
+  }
+}
