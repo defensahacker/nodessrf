@@ -24,7 +24,6 @@ app.get('/', (req, res) => {
       port: '80',
       headers: {'Metadata-Flavor': 'Google'}
     };
-    var bodyresponse= null;
     var callb = function(response) {
       var str = '';
       response.on('data', function (chunk) {
